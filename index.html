@@ -1,4 +1,4 @@
-<! DOCTYPE>
+<!DOCTYPE>
 <html lang="en" data-theme="light">
 <head>
 	<title></title>
@@ -10,21 +10,50 @@
 
 <body>
 	<header>
-		<h1>How to Call the Dog CEO API</h1>
 	</header>
 	<main class="container">
+		<div class="card">
+			<h1>How to Call the Dog CEO API</h1>
+		</div>
+	
 		<section class="card">
 			<h2>Step 1 — The URL is the request</h2>
-			<img src="images/raw-json.png" alt="The dog.ceo response as one unbroken line of raw text">
-			<img src="images/pretty-json.png" alt="The same response laid out on separate lines by the browser's JSON viewer">
-			<p>My request... The server’s reply...</p>
-			<pre><code>
-				{
-					"message": "https://images.dog.ceo/breeds/poodle-miniature/n02113712_587.jpg",
-					"status": "success"
-				}
-			</code></pre>
+				<img src="images/raw-json.png" alt="The dog.ceo response as one unbroken line of raw text">
+				<img src="images/pretty-json.png" alt="The same response laid out on separate lines by the browser's JSON viewer">
+				<p>I visited the dog API with my browser. Got a random dog. Then Pretty Printed the JSON. I learned that although 
+				   JSON looks like or reminds me of and object it isn't an object because it is not active code.</p>
+				<pre><code>{
+	"message": "https://images.dog.ceo/breeds/poodle-miniature/n02113712_587.jpg",
+	"status": "success"
+}</code></pre>
+		<p>Here are some adorable dog pics:</p>
+		<img src="https://images.dog.ceo/breeds/poodle-miniature/n02113712_587.jpg">
+		<img src="https://images.dog.ceo/breeds/terrier-norwich/n02094258_2513.jpg">
+		
 		</section>
+		
+		<section class="card">
+			<h2>Three Hound Request</h2>
+			<img src="images/raw-hound-json.png" alt="The dog.ceo hound reponse with raw text">
+			<img src="images/pretty-hound-json.png" alt="Same kind of response laid out prettier by the browser's JSON">
+			<p>Return to dog API requested three hound images from browser. Got three random dogs raw. Then Pretty Printed the JSON.</p>
+			<pre><code>{
+	"message":["https://images.dog.ceo/breeds/hound-walker/n02089867_1921.jpg","https://images.dog.ceo/breeds/hound-basset/n02088238_2646.jpg","https://images.dog.ceo/breeds/hound-english/n02089973_3136.jpg"],
+	"status":"success"
+}</code></pre>
+		<p>Here are some hound dog pics:</p>
+		<img src="https://images.dog.ceo/breeds/hound-walker/n02089867_1921.jpg">
+		<img src="https://images.dog.ceo/breeds/hound-basset/n02088238_2646.jpg">
+		<img src="https://images.dog.ceo/breeds/hound-english/n02089973_3136.jpg">
+		
+	
+		</section>
+		<section class="card">
+			<h2>JSON doesn't mess around!</h2>
+			<p>I searched the browser for dog API. The request was input into the browser and I got a response back with raw JSON. I 
+			   was able to make it Pretty Print by clicking Prettier in the response page. What I got back was JSON that resembles an object 
+			   only the code was not active. JSON requires double quotes on field names and is basically just an image of actual code or an object.
+			   Any small mis-step in JSON will not be JSON at all.</p>
 	</main>
 	<footer></footer>
 </body>
