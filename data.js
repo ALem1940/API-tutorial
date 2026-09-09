@@ -1,23 +1,3 @@
-<head>
-	<title></title>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.classless.min.css">
-	<link rel="stylesheet" href="css/container.css">
-	<link rel="stylesheet" href="css/card.css">
-	<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-	<header>
-		<a href="index.html">Back to Home</a>
-	</header>
-	<main class="container">
-	<button id="summarize-button" type="button">Summarize a cat</button>
-	
-	<section class="card">
-		<p id="output"></p>
-	</section>
-
-
-
 let pets = [
 	{ name: "Abyssinian", origin: "Ethiopia", length: "12 to 16 inches", playfulness: 5, max_weight: 10 },
 	{ name: "Siamese", origin: "Thailand", length: "15 to 20 inches", playfulness: 5, max_weight: 12 },
@@ -34,6 +14,3 @@ let pets = [
 	
 ];
 
-<script src="data.js"></script>
-<script scr="day-4.js"></script>
-</body>
