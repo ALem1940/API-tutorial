@@ -10,7 +10,7 @@
 
 <body>
 	<header>
-		<a href="day-4.html">Click Here</a>
+		<a href="day-4.html">Click for Day 4</a>
 	</header>
 	<main class="container">
 		<div class="card">
@@ -200,7 +200,26 @@
 			   Properties here do NOT need double quotes, yet do keep double quotes around for property values-strings and commas can follow before the curly brackets.</p> 
 			
 		</section>
-
+		<section class="card">
+			<h3>Step 4: Return Values</h6>
+			<h6>Day 4 reflection: Local and Global Variable Scope</h6>
+			<img src="images/global-local-scope.png" alt="picture demonstrates the rules to return values locally and globally">
+			<p>Local Variable Scope and Global Variable Scope</p>
+			<p>Inside of a function you can create variables and print them. This must be done in the function block. Anything called on that is in the function once you are outside of that function's
+			   block does not exist. It will show as undefined.</p>
+			<hr>
+			<img src="images/summarize-function.png" alt="global and local description on variables called inside and outside of function">
+			<pre><code>
+			{ function summarize(pet){
+	let line = pet.name + " comes from " + pet.origin + ".";
+	return line;
+	}
+</code></pre>
+			<p>The line created within the function will return a line of Siamese comes from Thailand. This can also be seen in the very first image/console within Step 4: Return Values.</p>
+		</section>
+		   
+		
+		
 		
 		
 		

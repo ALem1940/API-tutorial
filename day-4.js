@@ -2,7 +2,7 @@ let button = document.getElementById("summarize-button");
 let output = document.getElementById("output");
 
 function summarize(pet) {
-  console.log(pet.name + " comes from " + pet.origin + " and weighs up to " + pet.max_weight + " pounds.");
+  return pet.name + " comes from " + pet.origin + " and weighs up to " + pet.max_weight + " pounds.";
 }
 
 button.addEventListener("click", function () {
